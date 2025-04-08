@@ -1,0 +1,30 @@
+name: evenstage_mobile
+description: "EvenStage mobile music app"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image: ^3.3.0
+
+  # Basic UI
+  cupertino_icons: ^1.0.5
+
+  # State management
+  provider: ^6.1.4
+
+  # Audio
+  just_audio: ^0.9.46
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
